@@ -124,137 +124,136 @@
     <div class="row row0">
 
 
-      
-        <input type="text" class="form-control col-1" id="" value="" placeholder="0,9">
-        <input type="text" class="form-control col-1" id="" value="1,9" placeholder="1,9">
-        <input type="text" class="form-control col-1" id="" value="2,9" placeholder="2,9">
-        <input type="text" class="form-control col-1" id="" value="3,9" placeholder="3,9">
-        <input type="text" class="form-control col-1" id="" value="4,9" placeholder="4,9">
-        <input type="text" class="form-control col-1" id="" value="5,9" placeholder="5,9">
-        <input type="text" class="form-control col-1" id="" value="6,9" placeholder="6,9">
-        <input type="text" class="form-control col-1" id="" value="7,9" placeholder="7,9">
-        <input type="text" class="form-control col-1" id="" value="8,9" placeholder="8,9">
-        <input type="text" class="form-control col-1" id="" value="9,9" placeholder="9,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="0,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="1,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="2,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="3,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="4,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="5,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="6,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="7,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="8,9">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 9){echo "robot";} else{echo null;}?>" placeholder="9,9">
 
     </div>
 
     <div class="row row1">
 
-        <input type="text" class="form-control col-1" id="" value="0,8" placeholder="0,8">
-        <input type="text" class="form-control col-1" id="" value="1,8" placeholder="1,8">
-        <input type="text" class="form-control col-1" id="" value="2,8" placeholder="2,8">
-        <input type="text" class="form-control col-1" id="" value="3,8" placeholder="3,8">
-        <input type="text" class="form-control col-1" id="" value="4,8" placeholder="4,8">
-        <input type="text" class="form-control col-1" id="" value="5,8" placeholder="5,8">
-        <input type="text" class="form-control col-1" id="" value="6,8" placeholder="6,8">
-        <input type="text" class="form-control col-1" id="" value="7,8" placeholder="7,8">
-        <input type="text" class="form-control col-1" id="" value="8,8" placeholder="8,8">
-        <input type="text" class="form-control col-1" id="" value="9,8" placeholder="9,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="0,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="1,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="2,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="3,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="4,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="5,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 8){echo "robot";} else{echo null;}?>"" placeholder="6,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="7,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="8,8">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 8){echo "robot";} else{echo null;}?>" placeholder="9,8">
 
     </div>
 
     <div class="row row2">
 
-        <input type="text" class="form-control col-1" id="" value="0,7" placeholder="0,7">
-        <input type="text" class="form-control col-1" id="" value="1,7" placeholder="1,7">
-        <input type="text" class="form-control col-1" id="" value="2,7" placeholder="2,7">
-        <input type="text" class="form-control col-1" id="value3-7" value="3,7" placeholder="3,7">
-        <input type="text" class="form-control col-1" id="" value="4,7" placeholder="4,7">
-        <input type="text" class="form-control col-1" id="" value="5,7" placeholder="5,7">
-        <input type="text" class="form-control col-1" id="" value="6,7" placeholder="6,7">
-        <input type="text" class="form-control col-1" id="" value="7,7" placeholder="7,7">
-        <input type="text" class="form-control col-1" id="" value="8,7" placeholder="8,7">
-        <input type="text" class="form-control col-1" id="" value="9,7" placeholder="9,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="0,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="1,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="2,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 7){echo "robot";} else{echo "Tierra";}?>" placeholder="3,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="4,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="5,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="6,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="7,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="8,7">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 7){echo "robot";} else{echo null;}?>" placeholder="9,7">
       
     </div>
 
     <div class="row row3">
 
-        <input type="text" class="form-control col-1" id="" value="0,6" placeholder="0,6">
-        <input type="text" class="form-control col-1" id="" value="1,6" placeholder="1,6">
-        <input type="text" class="form-control col-1" id="" value="2,6" placeholder="2,6">
-        <input type="text" class="form-control col-1" id="" value="3,6" placeholder="3,6">
-        <input type="text" class="form-control col-1" id="" value="4,6" placeholder="4,6">
-        <input type="text" class="form-control col-1" id="" value="5,6" placeholder="5,6">
-        <input type="text" class="form-control col-1" id="" value="6,6" placeholder="6,6">
-        <input type="text" class="form-control col-1" id="" value="7,6" placeholder="7,6">
-        <input type="text" class="form-control col-1" id="" value="8,6" placeholder="8,6">
-        <input type="text" class="form-control col-1" id="" value="9,6" placeholder="9,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="0,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="1,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="2,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="3,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="4,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="5,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="6,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="7,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="8,6">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 6){echo "robot";} else{echo null;}?>" placeholder="9,6">
 
     </div>
 
     <div class="row row4">
     
-        <input type="text" class="form-control col-1" id="" value="0,5" placeholder="0,5">
-        <input type="text" class="form-control col-1" id="" value="1,5" placeholder="1,5">
-        <input type="text" class="form-control col-1" id="" value="2,5" placeholder="2,5">
-        <input type="text" class="form-control col-1" id="" value="3,5" placeholder="3,5">
-        <input type="text" class="form-control col-1" id="" value="4,5" placeholder="4,5">
-        <input type="text" class="form-control col-1" id="" value="5,5" placeholder="5,5">
-        <input type="text" class="form-control col-1" id="" value="6,5" placeholder="6,5">
-        <input type="text" class="form-control col-1" id="" value="7,5" placeholder="7,5">
-        <input type="text" class="form-control col-1" id="" value="8,5" placeholder="8,5">
-        <input type="text" class="form-control col-1" id="" value="9,5" placeholder="9,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="0,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="1,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 5){echo "robot";} else{echo null;}?>"placeholder="2,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="3,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 5){echo "robot";} else{echo null;}?>"placeholder="4,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="5,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="6,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="7,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="8,5">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 5){echo "robot";} else{echo null;}?>" placeholder="9,5">
 
     </div>
 
     <div class="row row5">
 
-        <input type="text" class="form-control col-1" id="" value="0,4" placeholder="0,4">
-        <input type="text" class="form-control col-1" id="" value="1,4" placeholder="1,4">
-        <input type="text" class="form-control col-1" id="" value="2,4" placeholder="2,4">
-        <input type="text" class="form-control col-1" id="" value="3,4" placeholder="3,4">
-        <input type="text" class="form-control col-1" id="" value="4,4" placeholder="4,4">
-        <input type="text" class="form-control col-1" id="" value="5,4" placeholder="5,4">
-        <input type="text" class="form-control col-1" id="" value="6,4" placeholder="6,4">
-        <input type="text" class="form-control col-1" id="" value="7,4" placeholder="7,4">
-        <input type="text" class="form-control col-1" id="" value="8,4" placeholder="8,4">
-        <input type="text" class="form-control col-1" id="" value="9,4" placeholder="9,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="0,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="1,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="2,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="3,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="4,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="5,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="6,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="7,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="8,4">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 4){echo "robot";} else{echo null;}?>" placeholder="9,4">
 
     </div>
 
     <div class="row row6">
 
-        <input type="text" class="form-control col-1" id="" value="0,3" placeholder="0,3">
-        <input type="text" class="form-control col-1" id="" value="1,3" placeholder="1,3">
-        <input type="text" class="form-control col-1" id="" value="2,3" placeholder="2,3">
-        <input type="text" class="form-control col-1" id="" value="3,3" placeholder="3,3">
-        <input type="text" class="form-control col-1" id="" value="4,3" placeholder="4,3">
-        <input type="text" class="form-control col-1" id="" value="5,3" placeholder="5,3">
-        <input type="text" class="form-control col-1" id="" value="6,3" placeholder="6,3">
-        <input type="text" class="form-control col-1" id="" value="7,3" placeholder="7,3">
-        <input type="text" class="form-control col-1" id="" value="8,3" placeholder="8,3">
-        <input type="text" class="form-control col-1" id="" value="9,3" placeholder="9,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="0,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="1,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="2,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="3,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="4,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="5,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="6,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="7,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="8,3">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 3){echo "robot";} else{echo null;}?>" placeholder="9,3">
 
     </div>
 
     <div class="row row7">
 
-        <input type="text" class="form-control col-1" id="" value="0,2" placeholder="0,2">
-        <input type="text" class="form-control col-1" id="" value="1,2" placeholder="1,2">
-        <input type="text" class="form-control col-1" id="" value="2,2" placeholder="2,2">
-        <input type="text" class="form-control col-1" id="" value="3,2" placeholder="3,2">
-        <input type="text" class="form-control col-1" id="" value="4,2" placeholder="4,2">
-        <input type="text" class="form-control col-1" id="" value="5,2" placeholder="5,2">
-        <input type="text" class="form-control col-1" id="" value="6,2" placeholder="6,2">
-        <input type="text" class="form-control col-1" id="" value="7,2" placeholder="7,2">
-        <input type="text" class="form-control col-1" id="" value="8,2" placeholder="8,2">
-        <input type="text" class="form-control col-1" id="" value="9,2" placeholder="9,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 2){echo "robot";} else{echo null;}?>" placeholder="0,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="1,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="2,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="3,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="4,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="5,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="6,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="7,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="8,2">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 2){echo "robot";} else{echo null;}?>"  placeholder="9,2">
 
     </div>
 
     <div class="row row8">
 
-        <input type="text" class="form-control col-1" id="" value="0,1" placeholder="0,1">
-        <input type="text" class="form-control col-1" id="" value="1,1" placeholder="1,1">
-        <input type="text" class="form-control col-1" id="" value="2,1" placeholder="2,1">
-        <input type="text" class="form-control col-1" id="" value="3,1" placeholder="3,1">
-        <input type="text" class="form-control col-1" id="" value="4,1" placeholder="4,1">
-        <input type="text" class="form-control col-1" id="" value="5,1" placeholder="5,1">
-        <input type="text" class="form-control col-1" id="" value="6,1" placeholder="6,1">
-        <input type="text" class="form-control col-1" id="" value="7,1" placeholder="7,1">
-        <input type="text" class="form-control col-1" id="" value="8,1" placeholder="8,1">
-        <input type="text" class="form-control col-1" id="" value="9,1" placeholder="9,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 0 && $coordFinalY === 1){echo "robot";} else{echo null;}?>"  placeholder="0,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 1 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="1,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 2 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="2,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 3 && $coordFinalY === 1){echo "robot";} else{echo null;}?>"placeholder="3,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 4 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="4,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 5 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="5,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 6 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="6,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 7 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="7,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 8 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="8,1">
+        <input type="text" class="form-control col-1" id="" value="<?php if($coordFinalX === 9 && $coordFinalY === 1){echo "robot";} else{echo null;}?>" placeholder="9,1">
 
 
     </div>

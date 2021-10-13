@@ -11,13 +11,14 @@
 <div class="container">
   <div class="h1 text-center m-4">MARS ROVER</div>
 
-     
+
 <form action="inicio.php" method="GET">
 
 <div class="form-group">
 
 
        <div class="form-row align-items-center m-5">
+
         <div class="col-4">
            <label class="sr-only" for="inlineFormInput">Inicio X</label>
            <input type="number" class="form-control mb-2" name="inicioX" id="" placeholder="Inicio X">
@@ -26,12 +27,11 @@
            <input type="number" class="form-control mb-2" name="inicioY" id="" placeholder="Inicio Y">
         </div>
         </div>
-        <!-- <div class="col-4">
-           <button type="submit" class="btn btn-primary mb-2">Cordenadas</button>
-        </div> -->
+        
        </div>
    
       <div class="form-row align-items-center m-5">
+
         <div class="col-4">
            <label class="sr-only" for="inlineFormInput">Cordenadas X</label>
            <input type="number" class="form-control mb-2" name="valueX" id="coordenadasX" placeholder="Cordenadas X">
@@ -40,12 +40,10 @@
            <input type="number" class="form-control mb-2" name="valueY" id="coordenadasY" placeholder="Cordenadas Y">
         </div>
         </div>
-        <!-- <div class="col-4">
-           <button type="submit" class="btn btn-primary mb-2">Cordenadas</button>
-        </div> -->
        </div>
 
      <div class="form-row align-items-center m-5">
+        
         <div class="col-3">
             <label class="sr-only" for="inlineFormInput">Left</label>
             <input type="number" class="form-control mb-2" id="left" name="left" placeholder="Left">
