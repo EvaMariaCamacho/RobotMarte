@@ -110,8 +110,6 @@
         
     </div>
 
-</form>
-
 
   <p style="text-align: center">NORTH</p>
   <p style="position:fixed; top:50%; Left:5%;">WEST</p>
